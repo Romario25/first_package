@@ -1,0 +1,12 @@
+{
+    "name": "romario25/upload-image",
+    "description": "Пакет скачивает изображения из удаленного хоста",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Romario25\\UploadImage\\": ""
+        }
+    }
+}
