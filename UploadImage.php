@@ -29,7 +29,9 @@ class UploadImage
         $this->url = $url;
         $this->uploadService = new Upload();
         $this->validateService = new Validator();
-
+        if (!file_exists(__DIR__.'/temp')) {
+            mkdir(__DIR__.'/temp');
+        }
         chmod(__DIR__.'/temp', 777);
     }
 
